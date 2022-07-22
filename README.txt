@@ -1,9 +1,10 @@
 This suite requires node.js LTS to operate and a compatible version of Firefox (102.0.1)
 
-
-The Config.json file should be configured in this way: 
+There needs to be a config.json file created in the main folder with the below syntax:
 
 {
 	"username": "insert username here",
 	"password": "insert pw here"
 }
+
+Without the config.json some tests in the suite will not work. Please use valid credentials. 
